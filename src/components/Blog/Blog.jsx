@@ -3,7 +3,7 @@ import Time from '../Time/Time';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const Card = (props) => {
+const Blog = (props) => {
     const { blogName, time, date, author, cover } = props.blog;
     const addTime=props.addTime;
     const addBookmark=props.addBookmark;
@@ -26,7 +26,6 @@ const Card = (props) => {
                     <div className='flex'>
                         <p className='text-[#11111199] mr-2'>{time} min read</p>
                         <button onClick={()=>addBookmark(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button>
-                        {/* <button><FontAwesomeIcon icon="fa-regular fa-bookmark" /></button> */}
                     </div>
                 </div>
                 <div className="card-body">
@@ -39,4 +38,4 @@ const Card = (props) => {
     );
 };
 
-export default Card;
+export default Blog;
