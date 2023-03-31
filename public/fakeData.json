@@ -7,7 +7,7 @@
       "cover": "https://img.freepik.com/free-photo/hooded-computer-hacker-stealing-information-with-laptop_155003-1918.jpg?w=900&t=st=1680198999~exp=1680199599~hmac=559fae820d7b9410ce703aa1fe62d633dc7ac5311ece8f606381ceebd9f4cf27",
       "author": {
         "name": "Mr. Raju",
-        "img": "https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=900&t=st=1680199342~exp=1680199942~hmac=dca76d2085ab14f7ff475699360a102641505023571fe688461960864b04337d"
+        "img": "https://images.unsplash.com/photo-1544168190-79c17527004f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
       }
     },
     {
@@ -18,29 +18,29 @@
       "cover": "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?w=1060&t=st=1680200169~exp=1680200769~hmac=b67d6fadbc2b8566d62a10bc3d58e804ca14df78d3fe374eb25e70a260e0b327",
       "author": {
         "name": "Mr. Rashed",
-        "img": "https://www.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_18185537.htm#query=user&position=17&from_view=search&track=sph"
+        "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
       }
     },
     {
       "id": "6425d2628bedd9930121df97",
-      "blogName": "Create Beautiful Websites Without Coding",
-      "date": "Mar 10 (15 Days ago)",
-      "time": 15,
-      "cover": "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?w=1060&t=st=1680200169~exp=1680200769~hmac=b67d6fadbc2b8566d62a10bc3d58e804ca14df78d3fe374eb25e70a260e0b327",
+      "blogName": "Create a 3D Element in Your React Site",
+      "date": "Feb 10 (35 Days ago)",
+      "time": 7,
+      "cover": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "author": {
-        "name": "Mr. Rashed",
-        "img": "https://www.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_18185537.htm#query=user&position=17&from_view=search&track=sph"
+        "name": "Mrs. Laila",
+        "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
       }
     },
     {
       "id": "6425d26257ead616edb18a53",
-      "blogName": "Create Beautiful Websites Without Coding",
-      "date": "Mar 10 (15 Days ago)",
-      "time": 15,
-      "cover": "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?w=1060&t=st=1680200169~exp=1680200769~hmac=b67d6fadbc2b8566d62a10bc3d58e804ca14df78d3fe374eb25e70a260e0b327",
+      "blogName": "Use Vite to Speed Up Web Development",
+      "date": "Mar 25 (5 Days ago)",
+      "time": 13,
+      "cover": "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
       "author": {
-        "name": "Mr. Rashed",
-        "img": "https://www.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_18185537.htm#query=user&position=17&from_view=search&track=sph"
+        "name": "Mr. Jahid", 
+        "img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
       }
     }
   ]

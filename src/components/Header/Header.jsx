@@ -2,10 +2,10 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div>
+        <div className=' border-b border-[#111111]'>
             <div className="navbar bg-base-100">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-4xl font-bold">Knowledge Cafe</a>
+    <a className="btn btn-ghost normal-case lg:text-4xl font-bold">Knowledge Cafe</a>
   </div>
   <div>
     <div className="dropdown dropdown-end">
