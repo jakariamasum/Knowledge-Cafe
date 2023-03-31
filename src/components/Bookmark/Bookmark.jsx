@@ -1,10 +1,15 @@
 import React from 'react';
+import BlogName from '../BlogName/BlogName';
 
-const Bookmark = (props) => {
+const Bookmark = (props) => { 
+    const bookMarkList=props.bookmark;
+    // console.log(bookMarkList)
     return (
         <div className='bg-[#F3F3F3] py-7 pl-7'>
             <h1 className='text-2xl font-bold pt-7 mb-4'>Bookmarked Blogs : {props.bookmark.length}</h1>
-            <p className='bg-[#FFFFFF] font-semibold text-xl p-5 mb-4 mr-7 rounded-xl'>Master Microsoft Power Platform and Become an In-Demand!</p>
+            {
+                bookMarkList.map(item=><BlogName key={item.id} name={item.blogName}></BlogName>)
+            }
         </div>
     );
 };
