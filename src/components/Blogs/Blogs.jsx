@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
-import Time from '../Blog/Time/Time';
+import Time from '../Time/Time';
+import Bookmark from '../Bookmark/Bookmark';
 
 const Blogs = () => {
     const [blogs,setBlogs]=useState([]); 
@@ -19,6 +20,7 @@ const Blogs = () => {
         </div>
         <div>
             <Time></Time>
+            <Bookmark></Bookmark>
         </div>
         </div>
     );

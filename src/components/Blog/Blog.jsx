@@ -1,5 +1,7 @@
 import React from 'react';
-import Time from './Time/Time';
+import Time from '../Time/Time';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Card = (props) => {
     const { blogName, time, date, author, cover } = props.blog;
@@ -9,18 +11,20 @@ const Card = (props) => {
                 <figure><img src={cover} alt="" /></figure>
                 <div className='flex justify-between items-center mt-8'>
                     <div className='flex items-center	'>
-                    <div className="avatar">
-                    <div className="w-12 rounded-full">
-                        <img src={author.img} />
+                        <div className="avatar">
+                            <div className="w-12 rounded-full">
+                                <img src={author.img} />
+                            </div>
+                        </div>
+                        <div className='pl-3'>
+                            <h2 className='font-bold text-2xl'>{author.name}</h2>
+                            <p className='text-[#11111199]'>{date}</p>
+                        </div>
                     </div>
-                </div>
-                <div className='pl-3'>
-                    <h2 className='font-bold text-2xl'>{author.name}</h2>
-                    <p className='text-[#11111199]'>{date}</p>
-                </div>
-                    </div>
-                    <div>
-                        <p className='text-[#11111199]'>{time} min read</p>
+                    <div className='flex'>
+                        <p className='text-[#11111199] mr-2'>{time} min read</p>
+                        <button><FontAwesomeIcon icon={faBookmark} /></button>
+                        {/* <button><FontAwesomeIcon icon="fa-regular fa-bookmark" /></button> */}
                     </div>
                 </div>
                 <div className="card-body">
