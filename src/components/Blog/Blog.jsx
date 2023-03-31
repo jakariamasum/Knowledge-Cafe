@@ -5,6 +5,8 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Card = (props) => {
     const { blogName, time, date, author, cover } = props.blog;
+    const addTime=props.addTime;
+    const addBookmark=props.addBookmark;
     return (
         <div>
             <div className="card card-compact w-full bg-base-100 shadow-xl p-12">
@@ -23,13 +25,13 @@ const Card = (props) => {
                     </div>
                     <div className='flex'>
                         <p className='text-[#11111199] mr-2'>{time} min read</p>
-                        <button><FontAwesomeIcon icon={faBookmark} /></button>
+                        <button onClick={()=>addBookmark(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button>
                         {/* <button><FontAwesomeIcon icon="fa-regular fa-bookmark" /></button> */}
                     </div>
                 </div>
                 <div className="card-body">
                     <h2 className="card-title font-bold text-3xl">{blogName}</h2>
-                    <button className="underline text-[#6047EC] text-start">Mark as read</button>
+                    <button className="underline text-[#6047EC] text-start" onClick={()=>addTime(props.blog.time)}>Mark as read</button>
 
                 </div>
             </div>
