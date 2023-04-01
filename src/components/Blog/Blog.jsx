@@ -9,9 +9,9 @@ const Blog = (props) => {
     const addBookmark=props.addBookmark;
     return (
         <div>
-            <div className="card card-compact w-full bg-base-100 shadow-xl p-12">
+            <div className="card card-compact w-full bg-base-100 shadow-xl p-12 my-10">
                 <figure><img src={cover} alt="" /></figure>
-                <div className='flex justify-between items-center mt-8'>
+                <div className='flex flex-col lg:flex-row justify-between items-center mt-8'>
                     <div className='flex items-center	'>
                         <div className="avatar">
                             <div className="w-12 rounded-full">
@@ -30,7 +30,8 @@ const Blog = (props) => {
                 </div>
                 <div className="card-body">
                     <h2 className="card-title font-bold text-3xl">{blogName}</h2>
-                    <button className="underline text-[#6047EC] text-start" onClick={()=>addTime(props.blog.time)}>Mark as read</button>
+                    <p className='font-semibold text-xl text-[#11111199]'>#beginners #promramming</p>
+                    <button className="underline text-[#6047EC] text-start text-2xl font-semibold" onClick={()=>addTime(props.blog.time)}>Mark as read</button>
 
                 </div>
             </div>

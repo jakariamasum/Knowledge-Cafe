@@ -48,7 +48,7 @@ const Blogs = () => {
     }, [])
     return (
         
-        <div className='grid grid-cols-2 gap-4 mt-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8'>
             <div>
                 {
                     blogs.map(blog => <Blog key={blog.id} blog={blog} addTime={addTime} addBookmark={addBookmark}></Blog>)
