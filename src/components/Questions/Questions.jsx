@@ -28,6 +28,13 @@ const Questions = () => {
                     </tr>
                 </table>
             </div>
+            <div> 
+                <h1 className='font-semibold text-3xl mb-5'>How does useState use?</h1>
+                <p>useState returns two things. One is value of a variable and another a setFunction to set the value. Before using useState we need to give default value inside the useState hook. Suppose if we want our output a collection or an array then initial value should be empty array. Let's look an example...<br />
+                    <span className='text-center text-blue-600 italic'> const [shop,setShop]=useState([]);</span> <br />
+                    here shop is a variable and setShop is the function to set the shop variable. The output of shop should be an array as we use an empty array for initial value.
+                </p>
+            </div>
             
         </div>
     );
