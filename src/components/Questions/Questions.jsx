@@ -6,10 +6,13 @@ const Questions = () => {
             <h1 className="font-semibold text-3xl mt-7">Diffrence between props and state</h1>
             <div className="overflow-x-auto my-5">
                 <table className='table w-full border-collapse bg-sky-300'>
+                    <thead>
                     <tr>
                         <th className='whitespace-normal'>Props</th>
                         <th className='whitespace-normal'>State</th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr className='hover'>
                         <td className='whitespace-normal'>Props can not be modify</td>
                         <td className='whitespace-normal'>State can be modify</td>
@@ -26,6 +29,7 @@ const Questions = () => {
                         <td className='whitespace-normal'>Both functional and class components can benefit from the use of props</td>
                         <td className='whitespace-normal'>Only class components can use state</td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
             <div>

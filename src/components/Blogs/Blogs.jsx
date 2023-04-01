@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 import Time from '../Time/Time';
 import Bookmark from '../Bookmark/Bookmark';
-import Toast from '../Toast/Toast';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -31,13 +30,6 @@ const Blogs = () => {
 
     }
 
-    const [duplicate,setDuplicate]=useState([]);
-    const checkDuplicate=(blogs)=>{
-        const newList=[...duplicate,blogs]; 
-        const ans=duplicate.find(similar=>similar===blogs); 
-        console.log(ans);
-        setDuplicate(newList); 
-    }
 
     // fetch and load the fake data
     const [blogs, setBlogs] = useState([]);

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import BlogName from '../BlogName/BlogName';
-import Toast from '../Toast/Toast';
 
 const Bookmark = (props) => {  
     const id=[];
